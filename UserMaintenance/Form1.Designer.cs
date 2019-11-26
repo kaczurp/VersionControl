@@ -33,6 +33,7 @@
             this.lblFullName = new System.Windows.Forms.Label();
             this.btnAdd = new System.Windows.Forms.Button();
             this.wrtButton = new System.Windows.Forms.Button();
+            this.dltButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listUsers
@@ -79,11 +80,22 @@
             this.wrtButton.UseVisualStyleBackColor = true;
             this.wrtButton.Click += new System.EventHandler(this.wrtButton_Click);
             // 
+            // dltButton
+            // 
+            this.dltButton.Location = new System.Drawing.Point(296, 123);
+            this.dltButton.Name = "dltButton";
+            this.dltButton.Size = new System.Drawing.Size(151, 23);
+            this.dltButton.TabIndex = 7;
+            this.dltButton.Text = "button1";
+            this.dltButton.UseVisualStyleBackColor = true;
+            this.dltButton.Click += new System.EventHandler(this.dltButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.dltButton);
             this.Controls.Add(this.wrtButton);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.lblFullName);
@@ -103,6 +115,7 @@
         private System.Windows.Forms.Label lblFullName;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button wrtButton;
+        private System.Windows.Forms.Button dltButton;
     }
 }
 
